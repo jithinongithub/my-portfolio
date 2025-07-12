@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code, Brain, Database, TrendingUp, ChevronDown, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Brain, Database, TrendingUp, ChevronDown, Menu, X } from 'lucide-react';
 
 interface Project {
   title: string;

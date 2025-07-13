@@ -176,7 +176,7 @@ const MLPortfolio: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-purple-400/20 to-pink-600/20 animate-pulse"></div>
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
-            Jithin Areepuzha
+            Jithin Raj
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Transforming data into intelligent solutions. Specializing in deep learning, computer vision, and MLOps.

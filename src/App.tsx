@@ -363,10 +363,10 @@ const MLPortfolio: React.FC = () => {
               aria-label="Send email"
             >
               <Mail className="h-5 w-5" />
-              your.email@example.com
+              jithinraj.areepuzha@gmail.com
             </a>
             <a 
-              href="https://linkedin.com/in/yourprofile" 
+              href="https://www.linkedin.com/in/jithin-raj-areepuzha-153758b8" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
@@ -376,7 +376,7 @@ const MLPortfolio: React.FC = () => {
               LinkedIn
             </a>
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/jithinongithub" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"

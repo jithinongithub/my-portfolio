@@ -70,27 +70,33 @@ const MLPortfolio: React.FC = () => {
     { category: "Deep Learning", items: ["CNN", "RNN/LSTM", "Transformers", "GANs", "Reinforcement Learning"] },
     { category: "Data Engineering", items: ["Apache Spark", "Kafka", "Airflow", "PostgreSQL", "MongoDB"] },
     { category: "Cloud & DevOps", items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"] },
-    { category: "Programming", items: ["Python", "R", "SQL", "JavaScript", "Go", "TypeScript"] }
+    { category: "Programming", items: ["Java", "Python", "Kotlin", "SQL", "JavaScript", "Go", "TypeScript"] }
   ];
 
   const experience: Experience[] = [
     {
-      title: "Senior ML Engineer",
-      company: "TechCorp AI",
-      period: "2022 - Present",
-      description: "Led development of production ML systems serving 10M+ users. Improved model performance by 35% through advanced feature engineering and ensemble methods."
+      title: "Software Developer",
+      company: "Autotrader UK",
+      period: "2023 - Present",
+      description: "Bult AI an AI Co-driver tool for helping retailers to add description and Images for their Advertisements."
     },
     {
-      title: "Data Scientist",
-      company: "DataDriven Inc",
-      period: "2020 - 2022",
-      description: "Built predictive models for customer churn, increasing retention by 28%. Designed and implemented A/B testing framework for model validation."
+      title: "Engineering Manager",
+      company: "Peak AI",
+      period: "2022 - 2023",
+      description: "Lead a passionate bunch of software developers towards the milestone of making the one of the existing product as SAAS."
     },
     {
-      title: "ML Research Intern",
-      company: "AI Research Lab",
-      period: "2019 - 2020",
-      description: "Conducted research on computer vision applications in healthcare. Published 2 papers at top-tier conferences (CVPR, NeurIPS)."
+      title: "Solution Architect",
+      company: "Expedia",
+      period: "2017 - 2020",
+      description: "Lead a major project where Air, Hotel, Activities etc. can be used as one of the travel product for a major Bank's credit cards rewards"
+    },
+    {
+      title: "Senior software engineer",
+      company: "IBS Software services",
+      period: "2010 - 2017",
+      description: "As my first company out from college, learned developed and groomed my sofware development career here."
     }
   ];
 

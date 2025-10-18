@@ -270,58 +270,58 @@ const MLPortfolio: React.FC = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/30">
+      {/* <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-800/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Featured Projects</h2>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              A showcase of my machine learning projects, from research to production deployments.
-            </p>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-4">Featured Projects</h2>
+        <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+          A showcase of my machine learning projects, from research to production deployments.
+        </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <div key={index} className="bg-slate-800/50 rounded-xl overflow-hidden backdrop-blur-sm border border-slate-700 hover:border-purple-600/50 transition-all duration-300 hover:transform hover:scale-105">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-48 object-cover"
-                  loading="lazy"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tech.map((tech, techIndex) => (
-                      <span key={techIndex} className="bg-purple-600/20 text-purple-400 px-2 py-1 rounded text-xs">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="flex gap-3">
-                    <button
-                      onClick={() => handleExternalLink(project.github)}
-                      className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors"
-                      aria-label={`View ${project.title} source code`}
-                    >
-                      <Github className="h-4 w-4" />
-                      <span className="text-sm">Code</span>
-                    </button>
-                    <button
-                      onClick={() => handleExternalLink(project.demo)}
-                      className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors"
-                      aria-label={`View ${project.title} demo`}
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                      <span className="text-sm">Demo</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
+        {projects.map((project, index) => (
+          <div key={index} className="bg-slate-800/50 rounded-xl overflow-hidden backdrop-blur-sm border border-slate-700 hover:border-purple-600/50 transition-all duration-300 hover:transform hover:scale-105">
+            <img 
+          src={project.image} 
+          alt={project.title} 
+          className="w-full h-48 object-cover"
+          loading="lazy"
+            />
+            <div className="p-6">
+          <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+          <p className="text-gray-300 mb-4 text-sm">{project.description}</p>
+          <div className="flex flex-wrap gap-2 mb-4">
+            {project.tech.map((tech, techIndex) => (
+              <span key={techIndex} className="bg-purple-600/20 text-purple-400 px-2 py-1 rounded text-xs">
+            {tech}
+              </span>
             ))}
           </div>
+          <div className="flex gap-3">
+            <button
+              onClick={() => handleExternalLink(project.github)}
+              className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors"
+              aria-label={`View ${project.title} source code`}
+            >
+              <Github className="h-4 w-4" />
+              <span className="text-sm">Code</span>
+            </button>
+            <button
+              onClick={() => handleExternalLink(project.demo)}
+              className="flex items-center gap-1 text-gray-300 hover:text-white transition-colors"
+              aria-label={`View ${project.title} demo`}
+            >
+              <ExternalLink className="h-4 w-4" />
+              <span className="text-sm">Demo</span>
+            </button>
+          </div>
+            </div>
+          </div>
+        ))}
+          </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Experience Section */}
       <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">

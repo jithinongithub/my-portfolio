@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Brain, Database, TrendingUp, ChevronDown, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Brain, Database, TrendingUp, ChevronDown, Menu, X } from 'lucide-react';
 
 // interface Project {
 //   title: string;
@@ -100,7 +100,7 @@ const MLPortfolio: React.FC = () => {
     }
   ];
 
-  const sections: SectionId[] = ['home', 'about', 'projects', 'experience', 'contact'];
+  const sections: SectionId[] = ['home', 'about', 'experience', 'contact'];
 
   const scrollToSection = (sectionId: SectionId): void => {
     const element = document.getElementById(sectionId);
@@ -188,12 +188,12 @@ const MLPortfolio: React.FC = () => {
             Transforming data into intelligent solutions. Specializing in deep learning, computer vision, and MLOps.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
+            {/* <button
               onClick={() => scrollToSection('projects')}
               className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
             >
               View Projects <ExternalLink className="h-4 w-4" />
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection('contact')}
               className="border border-purple-600 hover:bg-purple-600 text-purple-400 hover:text-white px-8 py-3 rounded-lg font-medium transition-colors"

@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Brain, Database, TrendingUp, ChevronDown, Menu, X } from 'lucide-react';
 
-interface Project {
-  title: string;
-  description: string;
-  tech: string[];
-  github: string;
-  demo: string;
-  image: string;
-}
+// interface Project {
+//   title: string;
+//   description: string;
+//   tech: string[];
+//   github: string;
+//   demo: string;
+//   image: string;
+// }
 
 interface SkillGroup {
   category: string;
@@ -38,32 +38,32 @@ const MLPortfolio: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const projects: Project[] = [
-    {
-      title: "Computer Vision for Medical Imaging",
-      description: "Deep learning model for automated detection of anomalies in medical scans using CNN architectures. Achieved 94% accuracy on validation set.",
-      tech: ["PyTorch", "OpenCV", "Docker", "FastAPI"],
-      github: "https://github.com/username/medical-cv",
-      demo: "https://demo.medical-cv.com",
-      image: "https://via.placeholder.com/400x200/4f46e5/ffffff?text=Medical+CV"
-    },
-    {
-      title: "NLP Sentiment Analysis Pipeline",
-      description: "End-to-end pipeline for real-time sentiment analysis of social media data with 92% accuracy using transformer models.",
-      tech: ["HuggingFace", "Apache Kafka", "PostgreSQL", "React"],
-      github: "https://github.com/username/sentiment-pipeline",
-      demo: "https://sentiment-demo.com",
-      image: "https://via.placeholder.com/400x200/059669/ffffff?text=NLP+Pipeline"
-    },
-    {
-      title: "MLOps Deployment Platform",
-      description: "Automated ML model deployment system with monitoring, A/B testing, and rollback capabilities using Kubernetes and MLflow.",
-      tech: ["Kubernetes", "MLflow", "Prometheus", "Grafana"],
-      github: "https://github.com/username/mlops-platform",
-      demo: "https://mlops-demo.com",
-      image: "https://via.placeholder.com/400x200/dc2626/ffffff?text=MLOps+Platform"
-    }
-  ];
+  // const projects: Project[] = [
+  //   {
+  //     title: "Computer Vision for Medical Imaging",
+  //     description: "Deep learning model for automated detection of anomalies in medical scans using CNN architectures. Achieved 94% accuracy on validation set.",
+  //     tech: ["PyTorch", "OpenCV", "Docker", "FastAPI"],
+  //     github: "https://github.com/username/medical-cv",
+  //     demo: "https://demo.medical-cv.com",
+  //     image: "https://via.placeholder.com/400x200/4f46e5/ffffff?text=Medical+CV"
+  //   },
+  //   {
+  //     title: "NLP Sentiment Analysis Pipeline",
+  //     description: "End-to-end pipeline for real-time sentiment analysis of social media data with 92% accuracy using transformer models.",
+  //     tech: ["HuggingFace", "Apache Kafka", "PostgreSQL", "React"],
+  //     github: "https://github.com/username/sentiment-pipeline",
+  //     demo: "https://sentiment-demo.com",
+  //     image: "https://via.placeholder.com/400x200/059669/ffffff?text=NLP+Pipeline"
+  //   },
+  //   {
+  //     title: "MLOps Deployment Platform",
+  //     description: "Automated ML model deployment system with monitoring, A/B testing, and rollback capabilities using Kubernetes and MLflow.",
+  //     tech: ["Kubernetes", "MLflow", "Prometheus", "Grafana"],
+  //     github: "https://github.com/username/mlops-platform",
+  //     demo: "https://mlops-demo.com",
+  //     image: "https://via.placeholder.com/400x200/dc2626/ffffff?text=MLOps+Platform"
+  //   }
+  // ];
 
   const skills: SkillGroup[] = [
     { category: "Machine Learning", items: ["PyTorch", "TensorFlow", "Scikit-learn", "XGBoost", "Keras"] },
@@ -115,9 +115,9 @@ const MLPortfolio: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleExternalLink = (url: string): void => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
+  // const handleExternalLink = (url: string): void => {
+  //   window.open(url, '_blank', 'noopener,noreferrer');
+  // };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">

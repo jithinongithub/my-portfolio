@@ -185,7 +185,7 @@ const MLPortfolio: React.FC = () => {
             Jithin Raj
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Transforming data into intelligent solutions. Specializing in deep learning, computer vision, and MLOps.
+            Transforming data into intelligent solutions. Specializing in data engineering, software development and MLOps.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             {/* <button
